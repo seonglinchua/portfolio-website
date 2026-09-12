@@ -2,6 +2,8 @@
 
 The digital headquarters of Jin Chua: an editorial portfolio for enterprise software, AI systems, automation, and knowledge building.
 
+**Live site:** [seonglinchua.github.io/portfolio-website](https://seonglinchua.github.io/portfolio-website/)
+
 ## Start locally
 
 ```bash
@@ -17,6 +19,10 @@ Vite will print the local development URL in the terminal.
 npm run build
 npm run test:sites
 ```
+
+## Deployment
+
+The site is hosted with GitHub Pages. Every push to `main` triggers the deployment workflow in `.github/workflows/deploy-pages.yml`.
 
 ## Project structure
 
