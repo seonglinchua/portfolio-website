@@ -1,0 +1,37 @@
+:root {
+  color-scheme: light;
+  --font-display: 'Newsreader', Georgia, serif;
+  --font-body: 'DM Sans', system-ui, sans-serif;
+  --ink: #082c4c;
+  --ink-soft: #45606f;
+  --surface: #fbf9f3;
+  --surface-raised: #ffffff;
+  --surface-tint: #eef7f1;
+  --line: #d8e3dd;
+  --footer-navy: #062b47;
+  --footer-muted: #a8b3c7;
+  --blue: #0b6f79;
+  --blue-dark: #07535f;
+  --cyan: #2a94a3;
+  --teal: #078565;
+  --green: #159667;
+  --coral: #f47c3c;
+  --radius-sm: 0.5rem;
+  --radius-md: 1rem;
+  --radius-lg: 1.5rem;
+  --shadow-sm: 0 0.75rem 2.5rem rgb(7 27 66 / 7%);
+  --shell: min(1180px, calc(100% - 3rem));
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --ink: #f7f9ff;
+  --ink-soft: #aebbd0;
+  --surface: #071426;
+  --surface-raised: #0d2038;
+  --surface-tint: #0a1a2e;
+  --line: #243b57;
+  --blue: #5e8cff;
+  --blue-dark: #80a1ff;
+  --shadow-sm: 0 0.75rem 2.5rem rgb(0 0 0 / 25%);
+}

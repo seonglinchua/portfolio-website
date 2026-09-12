@@ -1,0 +1,9 @@
+export function SectionIntro({ eyebrow, title, description }) {
+  return (
+    <div className="section-intro">
+      <p className="eyebrow">{eyebrow}</p>
+      <h2>{title}</h2>
+      {description && <p>{description}</p>}
+    </div>
+  );
+}
