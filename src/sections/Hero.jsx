@@ -16,7 +16,7 @@ export function Hero() {
         </div>
       </div>
       <div className="hero-art">
-        <img src="/images/hero-systems-architect-transparent.png" alt="Flat illustration of a systems architect connecting people, data, AI, automation, finance, and cloud services" width="1254" height="1254" fetchPriority="high" />
+        <img src={`${import.meta.env.BASE_URL}images/hero-systems-architect-transparent.png`} alt="Flat illustration of a systems architect connecting people, data, AI, automation, finance, and cloud services" width="1254" height="1254" fetchPriority="high" />
       </div>
     </section>
   );

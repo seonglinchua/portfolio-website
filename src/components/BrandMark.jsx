@@ -3,7 +3,7 @@ export function BrandMark() {
     <a className="brand" href="#top" aria-label="Nezha Systems home">
       <img
         className="brand__symbol"
-        src="/images/brand/nezha-folded-summit-web.png"
+        src={`${import.meta.env.BASE_URL}images/brand/nezha-folded-summit-web.png`}
         alt=""
         width="192"
         height="192"

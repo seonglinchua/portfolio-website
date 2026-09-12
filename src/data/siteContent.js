@@ -34,8 +34,10 @@ export const labExplorations = [
   { title: 'Prototypes', icon: SquaresFour },
 ];
 
+const assetPath = (path) => `${import.meta.env.BASE_URL}${path}`;
+
 export const articles = [
-  { format: 'Guide', title: 'Designing AI Systems That Deliver Real Business Value', date: 'Jul 28, 2026', readTime: '7 min', image: '/images/article-ai-value-v3.png' },
-  { format: 'Architecture note', title: 'From Complexity to Clarity: Building Scalable Business Systems', date: 'Jul 21, 2026', readTime: '6 min', image: '/images/article-systems-clarity-v3.png' },
-  { format: 'Case study', title: 'From Automation to Autonomy: A Practical Evolution', date: 'Jul 14, 2026', readTime: '8 min', image: '/images/article-automation-v3.png' },
+  { format: 'Guide', title: 'Designing AI Systems That Deliver Real Business Value', date: 'Jul 28, 2026', readTime: '7 min', image: assetPath('images/article-ai-value-v3.png') },
+  { format: 'Architecture note', title: 'From Complexity to Clarity: Building Scalable Business Systems', date: 'Jul 21, 2026', readTime: '6 min', image: assetPath('images/article-systems-clarity-v3.png') },
+  { format: 'Case study', title: 'From Automation to Autonomy: A Practical Evolution', date: 'Jul 14, 2026', readTime: '8 min', image: assetPath('images/article-automation-v3.png') },
 ];

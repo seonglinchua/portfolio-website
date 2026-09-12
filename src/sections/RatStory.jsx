@@ -3,7 +3,7 @@ export function RatStory() {
     <section className="section rat-section" id="about">
       <div className="shell rat-grid">
         <div className="rat-relationship" aria-hidden="true">
-          <img src="/images/brand/nezha-folded-summit-web.png" alt="" width="192" height="192" loading="lazy" />
+          <img src={`${import.meta.env.BASE_URL}images/brand/nezha-folded-summit-web.png`} alt="" width="192" height="192" loading="lazy" />
           <span>Nezha Systems</span>
           <i>×</i>
           <strong>Build By Rat</strong>
